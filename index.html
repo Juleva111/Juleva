@@ -18,11 +18,13 @@
 
 <header class="nav">
   <div class="brand">Juleva</div>
+
   <nav class="links">
     <a href="#about">about</a>
     <a href="#offer">angebot</a>
     <a href="#contact">kontakt</a>
   </nav>
+
   <button class="ghost" id="btnScroll" type="button">explore</button>
 </header>
 
@@ -35,9 +37,10 @@
     <div class="hero-card">
       <p class="kicker">editorial • minimal • elegant</p>
       <h1>Wealth begins within.</h1>
+
       <p class="lead">
-        Ruhige Inspiration, Motivation & Lernstrategien für Menschen,
-        die bewusster leben und klarer lernen wollen.
+        Ruhige Inspiration, Motivation & Lernstrategien
+        für Menschen, die bewusster leben und klarer lernen wollen.
       </p>
 
       <div class="cta-row">
@@ -47,7 +50,7 @@
     </div>
   </section>
 
-  <!-- REVEAL SECTION -->
+  <!-- REVEAL -->
   <section class="reveal" id="revealSection" aria-hidden="true">
     <div class="reveal-inner">
       <div class="reveal-grid">
@@ -85,6 +88,7 @@
         Hier findest du Gedanken, Konzepte und Lernstrategien, die dich begleiten,
         nicht antreiben.
       </p>
+
       <ul class="bullets">
         <li>aesthetic</li>
         <li>clean</li>
@@ -108,9 +112,11 @@
     </div>
 
     <div class="cards">
+      <!-- Ideen -->
       <div class="mini">
         <h3>Ideen & Konzepte</h3>
         <p>Ästhetische Alltagsideen und kleine Routinen, die Struktur und Ruhe in dein Leben bringen.</p>
+
         <button class="mini-btn more-btn" type="button"
                 data-title="Ideen & Konzepte"
                 data-template="tpl-ideas">
@@ -118,9 +124,11 @@
         </button>
       </div>
 
+      <!-- Motivation -->
       <div class="mini">
         <h3>Motivation</h3>
         <p>Sanfte Impulse, um dranzubleiben – ohne Druck, ohne Vergleich.</p>
+
         <button class="mini-btn more-btn" type="button"
                 data-title="Motivation"
                 data-template="tpl-motivation">
@@ -128,77 +136,131 @@
         </button>
       </div>
 
+      <!-- Lernstrategien -->
       <div class="mini">
         <h3>Lernstrategien</h3>
         <p>Klare Methoden für Fokus, Planung und nachhaltiges Lernen.</p>
+
         <button class="mini-btn more-btn" type="button"
                 data-title="Lernstrategien"
                 data-template="tpl-learning">
           mehr
         </button>
-       
-        <button class="mini-btn ghost-btn" type="button" id="openPdfs">zu den PDFs →</button>
 
+        <!-- PDFs Popup öffnen -->
+        <button class="mini-btn more-btn ghost-btn" type="button"
+                data-title="PDF-Lernhilfen"
+                data-template="tpl-pdfs">
+          zu den PDFs →
+        </button>
       </div>
     </div>
 
-    
+    <!-- TEMPLATES (Inhalte für Popups) -->
     <template id="tpl-ideas">
-      <p>Ästhetik ist mehr als das, was wir sehen. Sie zeigt sich in kleinen Momenten, in klaren Gedanken und in der Art, wie wir unseren Alltag wahrnehmen. Ein ästhetisches Leben bedeutet nicht Perfektion, sondern Aufmerksamkeit – für Details, für Stimmungen und für das, was sich gut anfühlt.</p>
-      <p>Wenn unsere Umgebung ruhig und bewusst gestaltet ist, wirkt sich das auch auf unser Inneres aus. Ordnung, klare Strukturen und harmonische Elemente können helfen, Gedanken zu sortieren und mehr Leichtigkeit in den Tag zu bringen.</p>
-      <p>Es geht nicht darum, alles neu zu gestalten oder einem Bild zu entsprechen. Vielmehr geht es darum, den eigenen Stil zu finden und einen Alltag zu schaffen, der sich stimmig anfühlt – Schritt für Schritt.</p>
-      <p>Meine Inhalte rund um Ästhetik sollen dich dabei begleiten: ruhiger werden, genauer hinsehen und bewusst entscheiden, was dir guttut.</p>
+      <p>Ästhetik ist mehr als das, was wir sehen. Sie zeigt sich in kleinen Momenten, in klaren Gedanken und in der Art, wie wir unseren Alltag wahrnehmen.</p>
+      <p>Wenn unsere Umgebung ruhig und bewusst gestaltet ist, wirkt sich das auch auf unser Inneres aus. Ordnung, klare Strukturen und harmonische Elemente schaffen Raum – für Fokus, Leichtigkeit und Kreativität.</p>
+      <p>Es geht nicht um Perfektion, sondern um einen Alltag, der sich stimmig anfühlt. Kleine Veränderungen und bewusste Routinen können bereits einen großen Unterschied machen.</p>
+      <p>Meine Inhalte rund um Ästhetik begleiten dich dabei: langsamer werden, genauer hinsehen und bewusst entscheiden, was dir guttut.</p>
     </template>
 
     <template id="tpl-motivation">
-      <p>Um Motivation im Leben zu behalten, kann es helfen, sich bewusste Routinen zu schaffen, die den Alltag sanft strukturieren. Ein angepasster Zeitplan, kleine Rituale und entspannende Methoden geben Halt, ohne einzuengen.</p>
-      <p>Motivation entsteht oft nicht durch große Veränderungen, sondern durch Beständigkeit. Wenn man beginnt, auf sich selbst zu achten, den eigenen Rhythmus zu respektieren und Fortschritte wahrzunehmen, entwickelt sich Motivation häufig von selbst.</p>
-      <p>Besonders stärkend ist es, an die eigenen Ziele zu glauben und zu spüren, wie man ihnen Schritt für Schritt näherkommt – nicht durch Druck oder Perfektion, sondern durch kleine, bewusste Handlungen.</p>
-      <p>Genau hier setzen meine Routinen und Planer an: als ruhige Begleiter, die Orientierung geben, Klarheit schaffen und helfen, dranzubleiben – leise, aber zuverlässig.</p>
+      <p>Um Motivation im Leben zu behalten, kann es helfen, sich Routinen zu schaffen, die den Alltag sanft strukturieren. Kleine Rituale und entspannende Methoden geben Halt, ohne einzuengen.</p>
+      <p>Motivation entsteht oft nicht durch große Veränderungen, sondern durch Beständigkeit. Wenn du deinen Rhythmus respektierst und Fortschritte wahrnimmst, wächst Motivation leise – aber zuverlässig.</p>
+      <p>Besonders stärkend ist es, an die eigenen Ziele zu glauben und zu spüren, wie man ihnen Schritt für Schritt näherkommt – nicht durch Druck, sondern durch klare, machbare Schritte.</p>
+      <p>Genau hier setzen meine Routinen und Planer an: als ruhige Begleiter, die Orientierung geben und dir helfen, dranzubleiben.</p>
     </template>
 
     <template id="tpl-learning">
-      <p>Lernen fühlt sich oft nicht schwierig an, weil wir es nicht können, sondern weil wir unter Druck stehen, uns vergleichen oder versuchen, in Systeme zu passen, die nicht zu uns gehören.</p>
-      <p>Meine Lernhilfen sind genau für diese Momente gedacht. Sie bieten keinen starren Plan und keine lauten Motivationstechniken, sondern einen ruhigen, klaren Zugang zum Lernen – angepasst an deinen eigenen Rhythmus und deinen Alltag.</p>
-      <p>Du bekommst sanfte Lernstrategien, die dir helfen, Struktur aufzubauen, ohne dich zu überfordern. Du lernst, wie du Fokus entwickeln kannst, ohne dich zu zwingen – und wie Lernen leichter wird, wenn Druck wegfällt.</p>
-      <p>Die Lernhilfen begleiten dich dabei, Vertrauen in dich selbst und in deine Art zu lernen zu finden. Klar planen, in kleinen Schritten vorangehen und dabei ruhig bleiben.</p>
-      <p>Jede Seite ist bewusst gestaltet – übersichtlich, ruhig und ästhetisch – damit du nicht nur Inhalte aufnimmst, sondern auch Raum zum Reflektieren hast.</p>
+      <p>Lernen fühlt sich oft nicht schwierig an, weil wir es nicht können, sondern weil wir unter Druck stehen, uns vergleichen oder in Systeme passen wollen, die nicht zu uns gehören.</p>
+      <p>Meine Lernhilfen sind für genau diese Momente gedacht: ruhig, klar und alltagstauglich. Du bekommst Struktur, ohne dich zu überfordern – und Methoden, die sich an deinen Rhythmus anpassen.</p>
+      <p>Du lernst, wie du Fokus aufbaust, mit kleinen Schritten Fortschritt sichtbar machst und Lernen leichter wird, wenn Druck wegfällt.</p>
+      <p>Wenn du magst: Unter „zu den PDFs →“ findest du meine PDF-Lernhilfen mit Preis & Download.</p>
     </template>
-<section class="section" id="pdfs">
-  <div class="split">
-    <div>
-      <h2>PDFs</h2>
-      <p class="muted">Hier findest du meine Lernhilfen als PDFs.</p>
-    </div>
-    <div class="pill">download • guide</div>
-  </div>
 
-  <div class="cards">
-    <!-- PDF 1 -->
-    <div class="mini">
-      <h3>Lernen ohne Druck</h3>
-      <p class="muted">Sanfte Lernstrategie für Fokus, Klarheit und Struktur.</p>
-      <p class="price">CHF 9</p>
-      <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF öffnen</a>
-    </div>
+    <!-- PDF TEMPLATE: kostenpflichtig über externen Link -->
+    <template id="tpl-pdfs">
+      <div class="pdf-grid">
 
-    <!-- PDF 2 -->
-    <div class="mini">
-      <h3>Weekly Study Plan</h3>
-      <p class="muted">Wochenplan + kleine Check-ins für deinen Rhythmus.</p>
-      <p class="price">CHF 7</p>
-      <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF öffnen</a>
-    </div>
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Fokus</span>
+            <span class="pdf-price">CHF 9</span>
+          </div>
 
-    <!-- PDF 3 -->
-    <div class="mini">
-      <h3>Focus Reset</h3>
-      <p class="muted">Kurze Übungen für Konzentration und Ruhe.</p>
-      <p class="price">CHF 5</p>
-      <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF öffnen</a>
-    </div>
-  </div>
-</section>
+          <h3 class="pdf-title">Lernen ohne Druck</h3>
+          <p class="pdf-sub">Sanfte Lernstrategie für Klarheit, Struktur und Konzentration.</p>
+
+          <ul class="pdf-list">
+            <li>ruhige Lernstruktur (Schritt für Schritt)</li>
+            <li>Fokus-Methoden + Planung</li>
+            <li>Reflexion & Mini-Check-ins</li>
+          </ul>
+
+          <p class="pdf-meta">PDF • 12–18 Seiten</p>
+
+          <div class="pdf-actions">
+            <a class="mini-btn" href="DEIN_LINK_1" target="_blank" rel="noopener">
+              Kaufen & Download →
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Plan</span>
+            <span class="pdf-price">CHF 7</span>
+          </div>
+
+          <h3 class="pdf-title">Weekly Study Plan</h3>
+          <p class="pdf-sub">Wochenplan + Struktur, die zu deinem Alltag passt.</p>
+
+          <ul class="pdf-list">
+            <li>Wochenübersicht + Tagesfokus</li>
+            <li>Mini-Ziele & Prioritäten</li>
+            <li>Review-Seite zum Abschließen</li>
+          </ul>
+
+          <p class="pdf-meta">PDF • druckfreundlich</p>
+
+          <div class="pdf-actions">
+            <a class="mini-btn" href="DEIN_LINK_2" target="_blank" rel="noopener">
+              Kaufen & Download →
+            </a>
+          </div>
+        </article>
+
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Routine</span>
+            <span class="pdf-price">CHF 5</span>
+          </div>
+
+          <h3 class="pdf-title">Focus Reset</h3>
+          <p class="pdf-sub">Kurze Routine für ruhige Konzentration – ideal zwischendurch.</p>
+
+          <ul class="pdf-list">
+            <li>3–5 Minuten Reset</li>
+            <li>kleine Übungen für Ruhe</li>
+            <li>Checklist für deinen Fokus</li>
+          </ul>
+
+          <p class="pdf-meta">PDF • 6–10 Seiten</p>
+
+          <div class="pdf-actions">
+            <a class="mini-btn" href="DEIN_LINK_3" target="_blank" rel="noopener">
+              Kaufen & Download →
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="pdf-note muted">
+        Hinweis: Für bezahlte Downloads brauchst du einen Checkout-Link (z.B. Gumroad/Ko-fi/Payhip).
+        Ersetze einfach DEIN_LINK_1/2/3.
+      </p>
+    </template>
 
     <!-- MODAL -->
     <div class="modal" id="modal" aria-hidden="true">
@@ -207,101 +269,22 @@
       <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
         <button class="modal-x" id="modalX" type="button" aria-label="Schließen">×</button>
         <h3 id="modalTitle">Titel</h3>
-        <div class="modal-body muted" id="modalBody"></div>
+
+        <!-- WICHTIG: DIV, damit HTML (PDF-Karten) angezeigt werden kann -->
+        <div class="modal-body muted" id="modalText"></div>
       </div>
     </div>
   </section>
-<div class="modal" id="pdfModal" aria-hidden="true">
-  <div class="modal-backdrop" id="pdfClose" aria-hidden="true"></div>
-
-  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="pdfTitle">
-    <button class="modal-x" id="pdfX" type="button" aria-label="Schließen">×</button>
-
-    <div class="split" style="margin-bottom: 10px;">
-      <div>
-        <h3 id="pdfTitle" style="margin:0;">PDF-Lernhilfen</h3>
-        <p class="muted" style="margin:6px 0 0;">Ästhetisch gestaltet, klar strukturiert – als ruhige Begleitung.</p>
-      </div>
-      <div class="pill">PDF • download</div>
-    </div>
-
-    <!-- Scrollbereich -->
-    <div class="modal-body">
-      <div class="pdf-grid">
-
-        <!-- PDF 1 -->
-        <article class="pdf-card">
-          <div class="pdf-top">
-            <span class="pdf-tag">Fokus</span>
-            <span class="pdf-price">CHF 9</span>
-          </div>
-          <h3 class="pdf-title">Lernen ohne Druck</h3>
-          <p class="pdf-sub">Sanfte Lernstrategie für Klarheit, Struktur und Konzentration – ohne Überforderung.</p>
-          <ul class="pdf-list">
-            <li>ruhige Lernstruktur (Schritt für Schritt)</li>
-            <li>Methoden für Fokus & Planung</li>
-            <li>Reflexionsfragen + Mini-Check-ins</li>
-          </ul>
-          <p class="pdf-meta">Format: PDF • Umfang: 12–18 Seiten</p>
-          <div class="pdf-actions">
-            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
-            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
-          </div>
-        </article>
-
-        <!-- PDF 2 -->
-        <article class="pdf-card">
-          <div class="pdf-top">
-            <span class="pdf-tag">Plan</span>
-            <span class="pdf-price">CHF 7</span>
-          </div>
-          <h3 class="pdf-title">Weekly Study Plan</h3>
-          <p class="pdf-sub">Wochenplan + klarer Rahmen, damit Lernen leichter in deinen Alltag passt.</p>
-          <ul class="pdf-list">
-            <li>Wochenübersicht + Tagesfokus</li>
-            <li>Prioritäten & Mini-Ziele</li>
-            <li>Review-Seite zum Abschließen</li>
-          </ul>
-          <p class="pdf-meta">Format: PDF • Druckfreundlich</p>
-          <div class="pdf-actions">
-            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
-            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
-          </div>
-        </article>
-
-        <!-- PDF 3 -->
-        <article class="pdf-card">
-          <div class="pdf-top">
-            <span class="pdf-tag">Routine</span>
-            <span class="pdf-price">CHF 5</span>
-          </div>
-          <h3 class="pdf-title">Focus Reset</h3>
-          <p class="pdf-sub">Kurze Routine für ruhige Konzentration – ideal für zwischendurch.</p>
-          <ul class="pdf-list">
-            <li>3–5 Minuten Reset-Routine</li>
-            <li>kleine Übungen gegen Overthinking</li>
-            <li>Checklist für deinen Fokus</li>
-          </ul>
-          <p class="pdf-meta">Format: PDF • Umfang: 6–10 Seiten</p>
-          <div class="pdf-actions">
-            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
-            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </div>
-</div>
 
   <!-- CONTACT -->
   <section class="section contact" id="contact">
     <div class="contact-card">
       <h2>Ready for your next step?</h2>
       <p class="muted">Schreib mir, wenn du Fragen hast oder Inspiration suchst.</p>
+
       <div class="contact-row">
         <a class="btn" href="mailto:Juleva.aesthetic@gmail.com">E-Mail</a>
-        <a class="ghost" href="#" aria-label="Instagram (Link einsetzen)">Instagram</a>
+        <a class="ghost" href="#" aria-label="Instagram Link einfügen">Instagram</a>
       </div>
     </div>
   </section>
@@ -309,59 +292,75 @@
 </main>
 
 <script>
-  // Explore scrollt zu About
-  document.getElementById("btnScroll").addEventListener("click", () => {
-    document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
-  });
+  // 1) Explore scrollt zu About
+  const btnScroll = document.getElementById("btnScroll");
+  if (btnScroll) {
+    btnScroll.addEventListener("click", () => {
+      const about = document.querySelector("#about");
+      if (about) about.scrollIntoView({ behavior: "smooth" });
+    });
+  }
 
-  // Reveal auf/zu
+  // 2) Reveal auf/zu
   const btnAction = document.getElementById("btnAction");
   const reveal = document.getElementById("revealSection");
+  if (btnAction && reveal) {
+    btnAction.addEventListener("click", () => {
+      const open = reveal.classList.toggle("open");
+      reveal.setAttribute("aria-hidden", String(!open));
+      btnAction.textContent = open ? "Schließen" : "Mehr erfahren";
+      if (open) reveal.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
-  btnAction.addEventListener("click", () => {
-    const open = reveal.classList.toggle("open");
-    reveal.setAttribute("aria-hidden", String(!open));
-    btnAction.textContent = open ? "Schließen" : "Mehr erfahren";
-    if (open) reveal.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-
-  // Modal
+  // 3) Modal System (Templates)
   const modal = document.getElementById("modal");
   const modalTitle = document.getElementById("modalTitle");
-  const modalBody = document.getElementById("modalBody");
+  const modalText = document.getElementById("modalText");
   const closeA = document.getElementById("modalClose");
   const closeB = document.getElementById("modalX");
 
-  function openModalFromTemplate(title, tplId){
-    modalTitle.textContent = title;
+  function openModalFromTemplate(title, tplId) {
+    if (!modal || !modalTitle || !modalText) return;
+
+    modalTitle.textContent = title || "Details";
     const tpl = document.getElementById(tplId);
-    modalBody.innerHTML = tpl ? tpl.innerHTML : "<p>Inhalt fehlt.</p>";
+    modalText.innerHTML = tpl ? tpl.innerHTML : "<p>Inhalt fehlt.</p>";
+
     modal.classList.add("open");
     modal.setAttribute("aria-hidden", "false");
     document.body.classList.add("modal-open");
   }
 
-  function closeModal(){
+  function closeModal() {
+    if (!modal) return;
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
   }
 
-  document.querySelectorAll(".more-btn").forEach(b => {
+  document.querySelectorAll(".more-btn").forEach((b) => {
     b.addEventListener("click", () => {
-      openModalFromTemplate(b.dataset.title || "Details", b.dataset.template);
+      const title = b.dataset.title || "Details";
+      const tplId = b.dataset.template;
+      if (!tplId) return;
+      openModalFromTemplate(title, tplId);
     });
   });
 
-  closeA.addEventListener("click", closeModal);
-  closeB.addEventListener("click", closeModal);
+  if (closeA) closeA.addEventListener("click", closeModal);
+  if (closeB) closeB.addEventListener("click", closeModal);
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeModal();
+    if (e.key === "Escape" && modal && modal.classList.contains("open")) {
+      closeModal();
+    }
   });
 </script>
 
 </body>
 </html>
+
+
 
 
