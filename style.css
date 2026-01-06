@@ -427,5 +427,18 @@ h2{
 body.modal-open{
   overflow: hidden;
 }
+.ghost-btn{
+  display: inline-block;
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid rgba(28,23,22,.18);
+}
+
+.price{
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgba(28,23,22,.65);
+}
+
 
 
