@@ -136,8 +136,9 @@
                 data-template="tpl-learning">
           mehr
         </button>
+       
+        <button class="mini-btn ghost-btn" type="button" id="openPdfs">zu den PDFs →</button>
 
-       <a class="mini-btn ghost-btn" href="#pdfs">zu den PDFs →</a> 
       </div>
     </div>
 
@@ -210,6 +211,88 @@
       </div>
     </div>
   </section>
+<div class="modal" id="pdfModal" aria-hidden="true">
+  <div class="modal-backdrop" id="pdfClose" aria-hidden="true"></div>
+
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="pdfTitle">
+    <button class="modal-x" id="pdfX" type="button" aria-label="Schließen">×</button>
+
+    <div class="split" style="margin-bottom: 10px;">
+      <div>
+        <h3 id="pdfTitle" style="margin:0;">PDF-Lernhilfen</h3>
+        <p class="muted" style="margin:6px 0 0;">Ästhetisch gestaltet, klar strukturiert – als ruhige Begleitung.</p>
+      </div>
+      <div class="pill">PDF • download</div>
+    </div>
+
+    <!-- Scrollbereich -->
+    <div class="modal-body">
+      <div class="pdf-grid">
+
+        <!-- PDF 1 -->
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Fokus</span>
+            <span class="pdf-price">CHF 9</span>
+          </div>
+          <h3 class="pdf-title">Lernen ohne Druck</h3>
+          <p class="pdf-sub">Sanfte Lernstrategie für Klarheit, Struktur und Konzentration – ohne Überforderung.</p>
+          <ul class="pdf-list">
+            <li>ruhige Lernstruktur (Schritt für Schritt)</li>
+            <li>Methoden für Fokus & Planung</li>
+            <li>Reflexionsfragen + Mini-Check-ins</li>
+          </ul>
+          <p class="pdf-meta">Format: PDF • Umfang: 12–18 Seiten</p>
+          <div class="pdf-actions">
+            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
+            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
+          </div>
+        </article>
+
+        <!-- PDF 2 -->
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Plan</span>
+            <span class="pdf-price">CHF 7</span>
+          </div>
+          <h3 class="pdf-title">Weekly Study Plan</h3>
+          <p class="pdf-sub">Wochenplan + klarer Rahmen, damit Lernen leichter in deinen Alltag passt.</p>
+          <ul class="pdf-list">
+            <li>Wochenübersicht + Tagesfokus</li>
+            <li>Prioritäten & Mini-Ziele</li>
+            <li>Review-Seite zum Abschließen</li>
+          </ul>
+          <p class="pdf-meta">Format: PDF • Druckfreundlich</p>
+          <div class="pdf-actions">
+            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
+            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
+          </div>
+        </article>
+
+        <!-- PDF 3 -->
+        <article class="pdf-card">
+          <div class="pdf-top">
+            <span class="pdf-tag">Routine</span>
+            <span class="pdf-price">CHF 5</span>
+          </div>
+          <h3 class="pdf-title">Focus Reset</h3>
+          <p class="pdf-sub">Kurze Routine für ruhige Konzentration – ideal für zwischendurch.</p>
+          <ul class="pdf-list">
+            <li>3–5 Minuten Reset-Routine</li>
+            <li>kleine Übungen gegen Overthinking</li>
+            <li>Checklist für deinen Fokus</li>
+          </ul>
+          <p class="pdf-meta">Format: PDF • Umfang: 6–10 Seiten</p>
+          <div class="pdf-actions">
+            <a class="mini-btn" href="#" target="_blank" rel="noopener">PDF ansehen</a>
+            <a class="mini-btn ghost-btn" href="#contact">Frage stellen</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- CONTACT -->
   <section class="section contact" id="contact">
@@ -280,4 +363,5 @@
 
 </body>
 </html>
+
 
