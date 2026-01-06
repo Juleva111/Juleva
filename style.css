@@ -314,7 +314,7 @@ h2{
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 14px 40px rgba(0,0,0,.10);
-  height: 320px; /* Bildh�he hier einstellen */
+  height: 320px; /* Bildhöhe hier einstellen */
 }
 
 .reveal-image img{
@@ -375,4 +375,57 @@ h2{
   cursor: pointer;
   color: rgba(28,23,22,.6);
 }
+/* Modal – stabil + Mobile scrollbar */
+.modal{
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 50;
+}
+
+.modal.open{ display: block; }
+
+.modal-backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  backdrop-filter: blur(6px);
+}
+
+.modal-card{
+  position: relative;
+  width: min(720px, 92vw);
+  margin: 10vh auto 0;
+  background: #fffaf6;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 18px;
+  box-shadow: 0 18px 60px rgba(0,0,0,.25);
+  padding: 18px;
+}
+
+.modal-x{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  font-size: 26px;
+  cursor: pointer;
+  color: rgba(28,23,22,.6);
+}
+
+/* Das ist der Scrollbereich für lange Texte */
+.modal-body{
+  margin-top: 10px;
+  line-height: 1.7;
+  max-height: 60vh;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+/* Wenn Modal offen ist, soll die Seite dahinter nicht scrollen */
+body.modal-open{
+  overflow: hidden;
+}
+
 
