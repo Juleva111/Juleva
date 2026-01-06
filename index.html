@@ -23,220 +23,168 @@
     <a href="#offer">angebot</a>
     <a href="#contact">kontakt</a>
   </nav>
-  <button class="ghost" id="btnScroll">explore</button>
+  <button class="ghost" id="btnScroll" type="button">explore</button>
 </header>
 
 <main>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-bg" aria-hidden="true"></div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
 
-  <div class="hero-card">
-    <p class="kicker">editorial • minimal • elegant</p>
-    <h1>Wealth begins within.</h1>
-    <p class="lead">Ruhige Inspiration, Motivation & Lernstrategien
-für Menschen, die bewusster leben und klarer lernen wollen.</p>
+    <div class="hero-card">
+      <p class="kicker">editorial • minimal • elegant</p>
+      <h1>Wealth begins within.</h1>
+      <p class="lead">
+        Ruhige Inspiration, Motivation & Lernstrategien für Menschen,
+        die bewusster leben und klarer lernen wollen.
+      </p>
 
-    <div class="cta-row">
-      <button class="btn" id="btnAction">Mehr erfahren</button>
-      <a class="link" href="#offer">was ich anbiete →</a>
+      <div class="cta-row">
+        <button class="btn" id="btnAction" type="button">Mehr erfahren</button>
+        <a class="link" href="#offer">was ich anbiete →</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- REVEAL SECTION -->
-<section class="reveal" id="revealSection" aria-hidden="true">
-  <div class="reveal-inner">
-    <div class="reveal-grid">
+  <!-- REVEAL SECTION -->
+  <section class="reveal" id="revealSection" aria-hidden="true">
+    <div class="reveal-inner">
+      <div class="reveal-grid">
 
-      <div class="reveal-image">
-        <img src="blume2.jpg" alt="Ästhetische Blume">
+        <div class="reveal-image">
+          <img src="blume2.jpg" alt="Ästhetische Blume">
+        </div>
+
+        <div class="reveal-text">
+          <p class="kicker2">worum geht es hier?</p>
+          <h2>Ästhetik für deinen Alltag</h2>
+          <p class="muted">
+            Juleva ist ein Ort für ruhige Inspiration, klare Gedanken und Motivation.
+            Hier findest du Ideen, Konzepte und Lernstrategien, die dich sanft dabei unterstützen,
+            deinen Alltag bewusster und schöner zu gestalten.
+          </p>
+
+          <ul class="bullets">
+            <li>Inspiration statt Druck</li>
+            <li>ästhetisches, ruhiges Design</li>
+            <li>klar & kostenlos</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section grid" id="about">
+    <article class="card">
+      <h2>About me</h2>
+      <p>
+        Juleva ist ein Ort für dich, wenn du Inspiration suchst – ohne Druck.
+        Hier findest du Gedanken, Konzepte und Lernstrategien, die dich begleiten,
+        nicht antreiben.
+      </p>
+      <ul class="bullets">
+        <li>aesthetic</li>
+        <li>clean</li>
+        <li>free</li>
+      </ul>
+    </article>
+
+    <article class="card image-card">
+      <img src="blume.jpg" alt="Dunkle rote Blume">
+    </article>
+  </section>
+
+  <!-- OFFER -->
+  <section class="section" id="offer">
+    <div class="split">
+      <div>
+        <h2>What I offer</h2>
+        <p class="muted">Ideen, Konzepte, Motivation und Lernstrategien</p>
+      </div>
+      <div class="pill">2026 • edition</div>
+    </div>
+
+    <div class="cards">
+      <div class="mini">
+        <h3>Ideen & Konzepte</h3>
+        <p>Ästhetische Alltagsideen und kleine Routinen, die Struktur und Ruhe in dein Leben bringen.</p>
+        <button class="mini-btn more-btn" type="button"
+                data-title="Ideen & Konzepte"
+                data-template="tpl-ideas">
+          mehr
+        </button>
       </div>
 
-      <div class="reveal-text">
-        <p class="kicker2">worum geht es hier?</p>
-        <h2>Ästhetik für deinen Alltag</h2>
-        <p class="muted">
-          Juleva ist ein Ort für ruhige Inspiration, klare Gedanken und Motivation.
-          Hier findest du Ideen, Konzepte und Lernstrategien, die dich sanft
-          dabei unterstützen, deinen Alltag bewusster und schöner zu gestalten. 
-        </p>
-
-        <ul class="bullets">
-          <li>Inspiration statt Druck</li>
-          <li>ästhetisches, ruhiges Design</li>
-          <li>klar & kostenlos</li>
-        </ul>
+      <div class="mini">
+        <h3>Motivation</h3>
+        <p>Sanfte Impulse, um dranzubleiben – ohne Druck, ohne Vergleich.</p>
+        <button class="mini-btn more-btn" type="button"
+                data-title="Motivation"
+                data-template="tpl-motivation">
+          mehr
+        </button>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="section grid" id="about">
-  <article class="card">
-    <h2>About me</h2>
-    <p>
-  Juleva ist ein Ort für dich,
-wenn du Inspiration suchst – ohne Druck.
-
-Hier findest du Gedanken, Konzepte und Lernstrategien,
-die dich begleiten, nicht antreiben.
-    </p>
-    <ul class="bullets">
-      <li>aesthetic</li>
-      <li>clean</li>
-      <li>free</li>
-    </ul>
-  </article>
-
-  <article class="card image-card">
-    <img src="blume.jpg" alt="Dunkle rote Blume">
-  </article>
-</section>
-
-<!-- OFFER -->
-<section class="section" id="offer">
-  <div class="split">
-    <div>
-      <h2>What I offer</h2>
-      <p class="muted">Ideen, Konzepte, Motivation und Lernstrategien</p>
-    </div>
-    <div class="pill">2026 • edition</div>
-  </div>
-
-  <div class="cards">
-    <div class="mini">
-      <h3>Ideen & Konzepte</h3>
-      <p>Ästhetische Alltagsideen und kleine Routinen,
-die Struktur und Ruhe in dein Leben bringen.</p>
-      <button
-        class="mini-btn more-btn"
-        data-title="Ideen & Konzepte"
-        data-text="Ästhetik ist mehr als das, was wir sehen.
-Sie zeigt sich in kleinen Momenten, in klaren Gedanken und in der Art, wie wir unseren Alltag wahrnehmen. Ein ästhetisches Leben bedeutet nicht Perfektion, sondern Aufmerksamkeit – für Details, für Stimmungen und für das, was sich gut anfühlt.
-
-Wenn unsere Umgebung ruhig und bewusst gestaltet ist, wirkt sich das auch auf unser Inneres aus.
-Ordnung, klare Strukturen und harmonische Elemente können dabei helfen, Gedanken zu sortieren und sich weniger überfordert zu fühlen. Ästhetik schafft Raum – für Fokus, für Kreativität und für Leichtigkeit.
-
-Es geht nicht darum, alles neu zu gestalten oder bestimmten Bildern zu entsprechen.
-Vielmehr geht es darum, den eigenen Stil zu finden und einen Alltag zu schaffen, der sich stimmig anfühlt. Kleine Veränderungen, bewusste Routinen und klare Strukturen können bereits einen großen Unterschied machen.
-
-Meine Inhalte rund um Ästhetik sollen genau dabei unterstützen.
-Sie laden dazu ein, langsamer zu werden, genauer hinzusehen und den Alltag bewusster zu gestalten. Ästhetik wird hier nicht als Ziel verstanden, sondern als Begleitung – ruhig, ehrlich und individuell.
-
-Ein ästhetischer Alltag darf einfach sein.
-Er darf sich entwickeln, verändern und anpassen.
-Und genau darin liegt seine Stärke">
-        mehr
-      </button>
+      <div class="mini">
+        <h3>Lernstrategien</h3>
+        <p>Klare Methoden für Fokus, Planung und nachhaltiges Lernen.</p>
+        <button class="mini-btn more-btn" type="button"
+                data-title="Lernstrategien"
+                data-template="tpl-learning">
+          mehr
+        </button>
+      </div>
     </div>
 
-    <div class="mini">
-      <h3>Motivation</h3>
-      <p>Sanfte Impulse, um dranzubleiben –
-ohne Druck, ohne Vergleich.</p>
-      <button
-        class="mini-btn more-btn"
-        data-title="Motivation"
-        data-text="Um Motivation im Leben zu behalten, kann es helfen, sich bewusste Routinen zu schaffen, die den Alltag sanft strukturieren.
-Ein angepasster Zeitplan, kleine Rituale und entspannende Methoden geben Halt, ohne einzuengen, und können dabei unterstützen, den eigenen Weg klarer zu sehen.
+    <!-- TEMPLATES: lange Texte sauber, ohne HTML kaputt zu machen -->
+    <template id="tpl-ideas">
+      <p>Ästhetik ist mehr als das, was wir sehen. Sie zeigt sich in kleinen Momenten, in klaren Gedanken und in der Art, wie wir unseren Alltag wahrnehmen. Ein ästhetisches Leben bedeutet nicht Perfektion, sondern Aufmerksamkeit – für Details, für Stimmungen und für das, was sich gut anfühlt.</p>
+      <p>Wenn unsere Umgebung ruhig und bewusst gestaltet ist, wirkt sich das auch auf unser Inneres aus. Ordnung, klare Strukturen und harmonische Elemente können helfen, Gedanken zu sortieren und mehr Leichtigkeit in den Tag zu bringen.</p>
+      <p>Es geht nicht darum, alles neu zu gestalten oder einem Bild zu entsprechen. Vielmehr geht es darum, den eigenen Stil zu finden und einen Alltag zu schaffen, der sich stimmig anfühlt – Schritt für Schritt.</p>
+      <p>Meine Inhalte rund um Ästhetik sollen dich dabei begleiten: ruhiger werden, genauer hinsehen und bewusst entscheiden, was dir guttut.</p>
+    </template>
 
-Motivation entsteht oft nicht durch große Veränderungen, sondern durch Beständigkeit.
-Wenn man beginnt, auf sich selbst zu achten, den eigenen Rhythmus zu respektieren und Fortschritte wahrzunehmen, entwickelt sich Motivation fast von selbst. Ein gesundes, ausgeglichenes Leben kann dabei zu einer stillen Kraft werden, die trägt – auch an ruhigeren Tagen.
+    <template id="tpl-motivation">
+      <p>Um Motivation im Leben zu behalten, kann es helfen, sich bewusste Routinen zu schaffen, die den Alltag sanft strukturieren. Ein angepasster Zeitplan, kleine Rituale und entspannende Methoden geben Halt, ohne einzuengen.</p>
+      <p>Motivation entsteht oft nicht durch große Veränderungen, sondern durch Beständigkeit. Wenn man beginnt, auf sich selbst zu achten, den eigenen Rhythmus zu respektieren und Fortschritte wahrzunehmen, entwickelt sich Motivation häufig von selbst.</p>
+      <p>Besonders stärkend ist es, an die eigenen Ziele zu glauben und zu spüren, wie man ihnen Schritt für Schritt näherkommt – nicht durch Druck oder Perfektion, sondern durch kleine, bewusste Handlungen.</p>
+      <p>Genau hier setzen meine Routinen und Planer an: als ruhige Begleiter, die Orientierung geben, Klarheit schaffen und helfen, dranzubleiben – leise, aber zuverlässig.</p>
+    </template>
 
-Besonders stärkend ist es, an die eigenen Ziele zu glauben und zu spüren, wie man ihnen Schritt für Schritt näherkommt.
-Nicht durch Druck oder Perfektion, sondern durch kleine, bewusste Handlungen, die sich gut in den Alltag integrieren lassen.
+    <template id="tpl-learning">
+      <p>Lernen fühlt sich oft nicht schwierig an, weil wir es nicht können, sondern weil wir unter Druck stehen, uns vergleichen oder versuchen, in Systeme zu passen, die nicht zu uns gehören.</p>
+      <p>Meine Lernhilfen sind genau für diese Momente gedacht. Sie bieten keinen starren Plan und keine lauten Motivationstechniken, sondern einen ruhigen, klaren Zugang zum Lernen – angepasst an deinen eigenen Rhythmus und deinen Alltag.</p>
+      <p>Du bekommst sanfte Lernstrategien, die dir helfen, Struktur aufzubauen, ohne dich zu überfordern. Du lernst, wie du Fokus entwickeln kannst, ohne dich zu zwingen – und wie Lernen leichter wird, wenn Druck wegfällt.</p>
+      <p>Die Lernhilfen begleiten dich dabei, Vertrauen in dich selbst und in deine Art zu lernen zu finden. Klar planen, in kleinen Schritten vorangehen und dabei ruhig bleiben.</p>
+      <p>Jede Seite ist bewusst gestaltet – übersichtlich, ruhig und ästhetisch – damit du nicht nur Inhalte aufnimmst, sondern auch Raum zum Reflektieren hast.</p>
+    </template>
 
-Genau hier setzen meine Routinen und Planer an.
-Sie sind als ruhige Begleiter gedacht, die Struktur geben, Orientierung schaffen und dabei helfen, den Überblick zu behalten – ohne zu überfordern. Sie unterstützen dich dabei, deinen Alltag bewusster zu gestalten, dich selbst besser wahrzunehmen und Motivation langfristig zu bewahren.
+    <!-- MODAL -->
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal-backdrop" id="modalClose" aria-hidden="true"></div>
 
-Meine Routinen laden dazu ein, innezuhalten, Klarheit zu schaffen und den Fokus neu auszurichten.
-Die Planer helfen dir, Ziele greifbarer zu machen und Fortschritte sichtbar werden zu lassen – auf eine sanfte, ästhetische und realistische Weise.
-
-Motivation muss nicht laut sein.
-Sie darf leise wachsen, sich entwickeln und dich begleiten.
-Mit meinen Routinen und Planern möchte ich genau diesen Raum schaffen.">
-        mehr
-      </button>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-x" id="modalX" type="button" aria-label="Schließen">×</button>
+        <h3 id="modalTitle">Titel</h3>
+        <div class="modal-body muted" id="modalBody"></div>
+      </div>
     </div>
+  </section>
 
-    <div class="mini">
-      <h3>Lernstrategien</h3>
-      <p>Klare Methoden für Fokus, Planung
-und nachhaltiges Lernen.</p>
-      <button
-        class="mini-btn more-btn"
-        data-title="Lernstrategien"
-        <div class="text-block">
-  <p class="long-text">
-        "Lernen fühlt sich oft nicht schwierig an, weil wir es nicht können,
-sondern weil wir unter Druck stehen, uns vergleichen oder versuchen,
-in Systeme zu passen, die nicht zu uns gehören.
-
-Meine Lernhilfen sind genau für diese Momente gedacht.
-Sie bieten keinen starren Plan und keine lauten Motivationstechniken,
-sondern einen ruhigen, klaren Zugang zum Lernen – angepasst an deinen
-eigenen Rhythmus und deinen Alltag.
-
-In meinen PDFs findest du sanfte Lernstrategien, die dir helfen,
-Struktur aufzubauen, ohne dich zu überfordern.
-Du lernst, wie du Fokus entwickeln kannst, ohne dich zu zwingen,
-wie kleine Schritte mehr bewirken als perfektes Durchhalten
-und wie Lernen leichter wird, wenn Druck wegfällt.
-
-Die Lernhilfen begleiten dich dabei, wieder Vertrauen in dich selbst
-und in deine Art zu lernen zu finden.
-Sie laden dich ein, langsamer zu denken, klarer zu planen
-und Lernen nicht als Belastung, sondern als Teil deines Lebens zu sehen.
-
-Jede Seite ist bewusst gestaltet – ruhig, übersichtlich und ästhetisch –
-damit du nicht nur Inhalte aufnimmst, sondern auch Raum zum Nachdenken
-und Reflektieren hast.
-
-Diese Lernhilfen sind für dich, wenn du Lernen nachhaltiger gestalten willst,
-wenn du dich oft überfordert fühlst oder Motivation suchst,
-die nicht laut, sondern beständig ist.
-
-Lernen darf sich leicht anfühlen.
-Diese PDFs sind eine Einladung, deinen eigenen Weg zu finden
-– in deinem Tempo, mit Klarheit und ohne Druck.">
-     </p>
-  <button class="read-more">mehr lesen</button>
-</div>
-        mehr
-      </button>
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-card">
+      <h2>Ready for your next step?</h2>
+      <p class="muted">Schreib mir, wenn du Fragen hast oder Inspiration suchst.</p>
+      <div class="contact-row">
+        <a class="btn" href="mailto:Juleva.aesthetic@gmail.com">E-Mail</a>
+        <a class="ghost" href="#" aria-label="Instagram (Link einsetzen)">Instagram</a>
+      </div>
     </div>
-  </div>
-
-  <!-- Modal (Popup) -->
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-backdrop" id="modalClose"></div>
-
-    <div class="modal-card" role="dialog" aria-modal="true">
-      <button class="modal-x" id="modalX">×</button>
-      <h3 id="modalTitle">Titel</h3>
-      <p class="muted" id="modalText">Text</p>
-    </div>
-  </div>
-</section>
-
-
-<!-- CONTACT -->
-<section class="section contact" id="contact">
-  <div class="contact-card">
-    <h2>Ready for your next step?</h2>
-    <p class="muted">
-      Schreib mir, wenn du Fragen hast oder Inspiration suchst.
-    </p>
-    <div class="contact-row">
-      <a class="btn" href="Juleva.aesthetic@gmail.com">E-Mail</a>
-      <a class="ghost" href="#">Instagram</a>
-    </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
@@ -246,55 +194,52 @@ Diese PDFs sind eine Einladung, deinen eigenen Weg zu finden
     document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
   });
 
-  // Button klappt Reveal auf/zu
-  const btn = document.getElementById("btnAction");
+  // Reveal auf/zu
+  const btnAction = document.getElementById("btnAction");
   const reveal = document.getElementById("revealSection");
 
-  btn.addEventListener("click", () => {
+  btnAction.addEventListener("click", () => {
     const open = reveal.classList.toggle("open");
     reveal.setAttribute("aria-hidden", String(!open));
-    btn.textContent = open ? "Schließen" : "Mehr erfahren";
-
-    if (open) {
-      reveal.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    btnAction.textContent = open ? "Schließen" : "Mehr erfahren";
+    if (open) reveal.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
-  // --- Modal Angebote ---
+  // Modal
   const modal = document.getElementById("modal");
   const modalTitle = document.getElementById("modalTitle");
-  const modalText = document.getElementById("modalText");
+  const modalBody = document.getElementById("modalBody");
   const closeA = document.getElementById("modalClose");
   const closeB = document.getElementById("modalX");
 
-  document.querySelectorAll(".more-btn").forEach(b => {
-    b.addEventListener("click", () => {
-      modalTitle.textContent = b.dataset.title;
-      modalText.textContent = b.dataset.text;
-      modal.classList.add("open");
-      modal.setAttribute("aria-hidden", "false");
-    });
-  });
+  function openModalFromTemplate(title, tplId){
+    modalTitle.textContent = title;
+    const tpl = document.getElementById(tplId);
+    modalBody.innerHTML = tpl ? tpl.innerHTML : "<p>Inhalt fehlt.</p>";
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+  }
 
   function closeModal(){
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
   }
+
+  document.querySelectorAll(".more-btn").forEach(b => {
+    b.addEventListener("click", () => {
+      openModalFromTemplate(b.dataset.title || "Details", b.dataset.template);
+    });
+  });
 
   closeA.addEventListener("click", closeModal);
   closeB.addEventListener("click", closeModal);
 
   document.addEventListener("keydown", (e) => {
-    if(e.key === "Escape") closeModal();
+    if (e.key === "Escape") closeModal();
   });
 </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
